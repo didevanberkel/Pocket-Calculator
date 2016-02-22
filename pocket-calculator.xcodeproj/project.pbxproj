@@ -12,6 +12,8 @@
 		AA95D9801C786008002F6B83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA95D97E1C786008002F6B83 /* Main.storyboard */; };
 		AA95D9821C786008002F6B83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA95D9811C786008002F6B83 /* Assets.xcassets */; };
 		AA95D9851C786008002F6B83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA95D9831C786008002F6B83 /* LaunchScreen.storyboard */; };
+		AA95D98D1C78BBA6002F6B83 /* bauhaus-93.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA95D98C1C78BBA6002F6B83 /* bauhaus-93.ttf */; };
+		AAA3EC7A1C7B8D3800EE7339 /* buttonClick.wav in Resources */ = {isa = PBXBuildFile; fileRef = AAA3EC791C7B8D3800EE7339 /* buttonClick.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		AA95D9811C786008002F6B83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA95D9841C786008002F6B83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA95D9861C786008002F6B83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA95D98C1C78BBA6002F6B83 /* bauhaus-93.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bauhaus-93.ttf"; sourceTree = "<group>"; };
+		AAA3EC791C7B8D3800EE7339 /* buttonClick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = buttonClick.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		AA95D9791C786008002F6B83 /* pocket-calculator */ = {
 			isa = PBXGroup;
 			children = (
+				AA95D98C1C78BBA6002F6B83 /* bauhaus-93.ttf */,
+				AAA3EC791C7B8D3800EE7339 /* buttonClick.wav */,
 				AA95D97A1C786008002F6B83 /* AppDelegate.swift */,
 				AA95D97C1C786008002F6B83 /* ViewController.swift */,
 				AA95D97E1C786008002F6B83 /* Main.storyboard */,
@@ -122,7 +128,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA95D98D1C78BBA6002F6B83 /* bauhaus-93.ttf in Resources */,
 				AA95D9851C786008002F6B83 /* LaunchScreen.storyboard in Resources */,
+				AAA3EC7A1C7B8D3800EE7339 /* buttonClick.wav in Resources */,
 				AA95D9821C786008002F6B83 /* Assets.xcassets in Resources */,
 				AA95D9801C786008002F6B83 /* Main.storyboard in Resources */,
 			);
@@ -284,6 +292,7 @@
 				AA95D98B1C786008002F6B83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
